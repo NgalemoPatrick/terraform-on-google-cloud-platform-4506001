@@ -20,7 +20,7 @@ data "google_compute_image" "ubuntu" {
 }
 
 resource "google_compute_instance" "web" {
-  name         = "web"
+  name         = "blog"
   machine_type = "e2-micro"
 
   
