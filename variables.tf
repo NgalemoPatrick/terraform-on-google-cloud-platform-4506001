@@ -35,7 +35,7 @@ variable "app_name" {
 
 variable "machine_type" {
     type       = string
-    default    = 'e2-micro'
+    default    = "e2-micro"
 }
 
 variable "image_family" {
